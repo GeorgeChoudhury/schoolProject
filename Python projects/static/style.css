@@ -1,0 +1,44 @@
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    font-size: 2rem;
+}
+
+.navbar-nav {
+    margin: auto;
+}
+
+.s-link {
+    position: relative;
+    margin-right: 2.5rem;
+}
+
+.s-link:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #1AACAC;
+    transition: width .5s ease;
+    -webkit-transition: width .5s ease;
+}
+
+.s-link:hover:after {
+    width: 100%;
+    left: 0;
+    background: #1AACAC;
+}
+
+#home {
+    margin-top: 5rem;
+}
+
+.fa {
+    font-size: 2.5rem;
+    margin: 2rem;
+}
